@@ -1,0 +1,148 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: whitesmoke;  
+    position: static;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategrey;
+}
+
+.header-logo {
+    padding-left: 90px;
+    font-size: 24px;
+    font-weight: bold;
+    color: beige;
+}
+
+.header-link {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+    padding-right: 90px;
+    font-size: 18px;
+    font-weight:500;
+    color:beige;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: beige;
+
+}
+
+.container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    gap: 30px;
+    background: darkslategray;
+    color: beige;
+    column-gap: 8px;
+}
+
+.container-one .text-one {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.container-one .text-two {
+    font-size: 20px;
+}
+
+.random-info {
+    text-align: center;
+    color: darkslategray;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 60px;
+}
+
+.container-two .item {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    gap: 30px;
+}
+
+.container-two .text {
+    font-size: medium;
+    color: black;
+}
+
+.container-three {
+    padding: 90px;
+    background: #e5e7eb;
+    font-style: italic;
+    font-size: 24px;
+    color: darkslategray;
+}
+
+.container-three .text-one {
+    text-align: center;
+}
+
+.container-three .text-two {
+    text-align: right;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3882f3;
+    border-radius: 8px;
+    padding: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+.container-four .text-one {
+    font-weight: bold;
+    color: beige;
+    font-size: 20px;
+}
+
+.container-four .text-two {
+    font-size: 20px;
+    color: beige;
+    font-weight:400;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: darkslategray;
+    font-weight: bold;
+    color: beige;
+}   
+
+.container-one .button {
+    border-radius: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    color: darkslategray;
+    padding: 8px 16px;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.container-four .button {
+    border-radius: 4px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    color: #3882f3;
+    padding: 8px 16px;
+    margin-left: 16px;
+    font-weight: bold;
+    font-size: medium;
+}
